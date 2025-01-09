@@ -1,0 +1,13 @@
+# Core Dependencies
+torch==2.3.0  # PyTorch for Dataset and IterableDataset
+transformers==4.46.2  # Hugging Face Transformers for SFTTrainer
+datasets==3.2.0  # Hugging Face Datasets for dataset handling
+trl==0.13.0  # Transformer Reinforcement Learning for SFTTrainer
+
+# Testing Dependencies
+pytest==8.3.4  # For running tests
+pytest-cov==4.1.0  # Optional: For measuring test coverage
+
+# Build/Development Dependencies
+build==1.2.2.post1  # For building the package
+twine==5.0.0  # For uploading to PyPI
