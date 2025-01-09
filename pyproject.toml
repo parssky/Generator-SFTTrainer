@@ -13,6 +13,18 @@ license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "torch",
-    "transformers",
+    "torch>=2.0.0",
+    "transformers>=4.0.0",
+    "datasets>=2.0.0",
+    "trl>=0.13.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+dev = [
+    "build>=0.10.0",
+    "twine>=4.0.0",
 ]
